@@ -1,0 +1,46 @@
+﻿Build started 20.6.2016 г. 11:09:00 ч..
+     1>Project "c:\Users\Toni\documents\visual studio 2013\Projects\sorting\sorting\sorting.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt matrix_mult_cache_friendly.cpp
+         matrix_mult_cache_friendly.cpp
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(102): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(130): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(19): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(106) : see reference to function template instantiation 'void GenerateMatrix<int>(TYPE **&,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=int
+                 ]
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(54): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(114) : see reference to function template instantiation 'TYPE **MultipyAxB_cache_friendly<int>(TYPE **&,TYPE **&,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=int
+                 ]
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(10): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+                 c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(134) : see reference to function template instantiation 'void GenerateMatrix<double>(TYPE **&,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(14): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(36): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+                 c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(142) : see reference to function template instantiation 'TYPE **MultipyAxB_cache_friendly<double>(TYPE **&,TYPE **&,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(40): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(42): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(85): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+                 c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(148) : see reference to function template instantiation 'TYPE **read_from_binary<double>(char *)' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+     1>c:\users\toni\documents\visual studio 2013\projects\sorting\sorting\matrix_mult_cache_friendly.cpp(87): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Done Building Project "c:\Users\Toni\documents\visual studio 2013\Projects\sorting\sorting\sorting.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.44
